@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "ea9ca8fd613f99ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef70c14d602501d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b9a4dfae09d2f5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub/GitHub SSH Setup.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66ff6673e518415f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d34c1c1e3d6028c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f225e196c373c6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "489e7c6f49a1238e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "134a8a770f249aa2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4109c1df1bb984d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "83f9ef68925c3230",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d75e631fd017ed5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GitHub/GitHub SSH Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5c121bf54ff1f91a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GitHub/GitHub SSH Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be27e869dc315049",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2c9565f53eb66c3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GitHub/GitHub SSH Setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8b9a4dfae09d2f5f",
+  "lastOpenFiles": [
+    "GitHub/GitHub SSH Setup.md",
+    "README.md.md"
+  ]
+}
