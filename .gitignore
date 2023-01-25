@@ -1,19 +1,8 @@
-# Created by https://www.toptal.com/developers/gitignore/api/obsidian,text
-# Edit at https://www.toptal.com/developers/gitignore?templates=obsidian,text
+# Created by https://www.toptal.com/developers/gitignore/api/obsidian
+# Edit at https://www.toptal.com/developers/gitignore?templates=obsidian
 
 ### Obsidian ###
 # config dir
 .obsidian/
 
-### Text ###
-*.doc
-*.docx
-*.log
-*.msg
-*.pages
-*.rtf
-*.txt
-*.wpd
-*.wps
-
-# End of https://www.toptal.com/developers/gitignore/api/obsidian,text
+# End of https://www.toptal.com/developers/gitignore/api/obsidian
