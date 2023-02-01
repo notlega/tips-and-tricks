@@ -2,7 +2,6 @@
 
 A repo entirely full of tips and tricks, writted in MD.
 
-
 ## Installation
 
 Just clone and enjoy

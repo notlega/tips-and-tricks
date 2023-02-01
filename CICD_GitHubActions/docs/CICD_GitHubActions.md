@@ -60,11 +60,11 @@ This workflow will test the build of the application only.
 
 Open your repository and select the `Actions` tab at the top of your screen.
 
-![](./images/top-tabbar.png)
+![](top-tabbar.png)
 
 Under `Continuous integration`, select `Node.js` and configure it.
 
-![](./images/continuous-integration-nodejs.png)
+![](continuous-integration-nodejs.png)
 
 The current screen should display a pre-written yml file.
 
@@ -243,7 +243,7 @@ Once the modified code is pasted within the web code editor, click on the `Start
 
 A popup should appear with default configurations.
 
-![](./images/commit-modified-yml.png)
+![](commit-modified-yml.png)
 
 Click on the `Commit new file` button with the default commit configs if you do not wish to add any custom message or description.
 
@@ -265,7 +265,7 @@ To solve this issue, a linter can be installed to link the file before submittin
 
 If you are using Visual Studio Code, I recommend the YAML extension by Red Hat.
 
-![](./images/yaml-linter.png)
+![](yaml-linter.png)
 
 ### GitHub Secrets
 
