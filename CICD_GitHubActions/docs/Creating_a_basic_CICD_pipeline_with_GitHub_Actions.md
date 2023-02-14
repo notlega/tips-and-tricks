@@ -1,46 +1,4 @@
-# CI/CD and GitHub Actions
-
-This document explains the basics of CI/CD, GitHub Actions, examples, and common mistakes while using GitHub Actions.
-
-## Table of Contents
-
-1. What is CI/CD
-2. What is GitHub Actions
-3. Why create a CI/CD pipeline with GitHub Actions
-4. Creating a basic CI/CD pipeline with GitHub Actions
-5. Common Mistakes
-6. Glossary
-7. References/Resources
-
-## What is CI/CD
-
-"CI" stands for "Continuous Integration".
-
-Continuous Integration is the automation process of building, testing and merging code changes of an application to a shared repository.
-
-"CD" stands for "Continuous Delivery" and/or "Continuous Deployment".
-
-Continuous Delivery ensures that it takes little effort to deliver new code that has been automatically tested and uploaded to the repository.
-
-Continuous Deployment is similar to Continuous Delivery. Instead of delivering new code however, it deploys changes from repository to production.
-
-This new release is usable by customers.
-
-## What is GitHub Actions
-
-GitHub Actions is a CI/CD platform for GitHub.
-
-It allows for the automation of builds, tests, and deployment pipelines.
-
-GitHub also provides Linux, Windows, and macOS virtual machines to run your workflows.
-
-## Why create a CI/CD pipeline with GitHub Actions
-
-GitHub Actions automates most of the manual processes like tests and builds.
-
-GitHub Actions will also perform the actions much faster than performing them manually.
-
-## Creating a basic CI/CD pipeline with GitHub Actions
+# Creating a basic CI/CD pipeline with GitHub Actions
 
 For this example, i'll be using a repository that I own.
 
@@ -50,13 +8,13 @@ I will be creating a single workflow that only runs when a pull request is made 
 
 This workflow will test the build of the application only.
 
-### Prerequisites
+## Prerequisites
 
 - A GitHub repository
 - Some knowledge of YAML
 - Some knowledge of Git
 
-### Choosing a workflow
+## Choosing a workflow
 
 Open your repository and select the `Actions` tab at the top of your screen.
 
@@ -68,7 +26,7 @@ Under `Continuous integration`, select `Node.js` and configure it.
 
 The current screen should display a pre-written yml file.
 
-### Modifying the workflow
+## Modifying the workflow
 
 Currently, the following code should be shown on screen.
 
@@ -237,7 +195,7 @@ The above modified code block will now be triggered if a pull request is made to
 
 It will test the build of the application only when run.
 
-### Committing the modified workflow
+## Committing the modified workflow
 
 Once the modified code is pasted within the web code editor, click on the `Start commit` button on the top right.
 
@@ -247,53 +205,16 @@ A popup should appear with default configurations.
 
 Click on the `Commit new file` button with the default commit configs if you do not wish to add any custom message or description.
 
-### Testing the workflow
+## Testing the workflow
 
 After the commit, merge any branches and test the workflow by creating a pull request to the `main` branch.
 
 A popup should appear at the bottom of the pull request page to run the pipeline.
 
-## Common Mistakes
+## Previous Topic
 
-### Linting
+[Basics of YAML](./Basics_of_YAML.md)
 
-Since this might be the first time learning YAML, syntax errors might be normal occurrences.
+## Next Topic
 
-Testing YAML files is also quite tough as there is no normal way to debug them.
-
-To solve this issue, a linter can be installed to link the file before submitting it.
-
-If you are using Visual Studio Code, I recommend the YAML extension by Red Hat.
-
-![](yaml-linter.png)
-
-### GitHub Secrets
-
-Instead of storing important information like API keys, tokens, or passwords using plaintext, store them using GitHub Secrets.
-
-GitHub Secrets operate similarly to environment variables.
-
-This allows for heightened security as important information will now be secure under another layer of protection instead of being exposed.
-
-## Glossary
-
-**Git** - An open-source version control software
-
-**GitHub** - A company that offers a cloud-based Git repository hosting service
-
-**Build(s)** - A set of executable code that is ready for customer usage
-
-**Test(s)** - A set of executable code that is used to test code
-
-**Deployment** - Pushing changes and/or updates from one environment to another
-
-**Workflows** - A series of activities that are necessary to complete a task
-
-**CI/CD Pipeline** - A series of automated workflows
-
-## References/Resources
-
-- What is Ci/CD and how does it work? (no date) Synopsys. Synopsys. Available at: [https://www.synopsys.com/glossary/what-is-cicd.html](https://www.synopsys.com/glossary/what-is-cicd.html) (Accessed: January 25, 2023).
-- What is CI/CD? (2022) What is CI/CD VB. Red Hat. Available at: [https://www.redhat.com/en/topics/devops/what-is-ci-cd](https://www.redhat.com/en/topics/devops/what-is-ci-cd) (Accessed: January 25, 2023).
-- Douglas, B. (2022) How to build a CI/CD pipeline with github actions in four simple steps, The GitHub Blog. GitHub. Available at: [https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/) (Accessed: January 25, 2023).
-- Segura, T. (2022) GitHub actions security best practices [cheat sheet included], GitGuardian Blog - Automated Secrets Detection. GitGuardian. Available at: [https://blog.gitguardian.com/github-actions-security-cheat-sheet/](https://blog.gitguardian.com/github-actions-security-cheat-sheet/) (Accessed: January 25, 2023).
+[Workflow Syntax for GitHub Actions](Workflow_Syntax_for_GitHub_Actions.md)
