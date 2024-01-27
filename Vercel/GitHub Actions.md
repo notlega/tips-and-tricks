@@ -73,7 +73,7 @@ env:
 on:
   push:
     branches-ignore:
-      - main
+      - main # Change this to your main branch name
 
 jobs:
   Deploy-Preview:
@@ -118,7 +118,7 @@ env:
 on:
   push:
     branches:
-      - main
+      - main # Change this to the branch you want to deploy to production
 
 jobs:
   Deploy-Production:
